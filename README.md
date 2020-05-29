@@ -2,7 +2,7 @@
 Aprendendo conceitos básicos sobre o que é uma API, o que é REST e Restful através de uma simples API escrita com Node.Js
 
 ### API, REST e RESTFUL
-##API
+## API
 Cliente (Client) Garçom (pedidos, levar seus pedidos, para a cozinha) (API) Cozinha (Server)
 
 Acrônimo de Application Programming Interface (Interface de Programação de Aplicações) é basicamente um conjunto de rotinas e padrões estabelecidos por uma aplicação, para que outras aplicações possam utilizar as funcionalidades desta aplicação.
@@ -10,7 +10,7 @@ Acrônimo de Application Programming Interface (Interface de Programação de Ap
 - Responsável por estabelecer comunicação entre diferentes serviços.
 - Meio de campo entre as tecnologias.
 - Intermediador para troca de informações.
-##REST
+## REST
 um acrônimo para REpresentational State Transfer (Transferência de Estado Representativo).
 
 - Será feita a transferência de dados de uma maneira simbólica, figurativa, representativa, de maneira didática.
@@ -21,7 +21,7 @@ um acrônimo para REpresentational State Transfer (Transferência de Estado Repr
 
 Resources seria então: Uma entidade ou um objeto.
 
-6 NECESSIDADES (constraints) para ser RESTful
+## 6 NECESSIDADES (constraints) para ser RESTful
 - Uniform Interface: Manter uma uniformidade, uma constância, um padrão na construção da interface. Nossa API precisa ser coerente para quem vai consumi-lá. Precisa fazer sentido para o cliente e não ser confusa. Logo, coisas como: o uso correto dos verbos HTTP; endpoints coerentes (todos os endpoints no plural, por exemplo); usar somente uma linguagem de comunicação (json) e não várias ao mesmo tempo; sempre enviar respostas aos clientes; são exemplos de aplicação de uma interface uniforme.
 
 - Client-server: Separação do cliente e do armazenamento de dados (servidor), dessa forma, poderemos ter uma portabilidade do nosso sistema, usando o React para WEB e React Native para o smartphone, por exemplo.
@@ -34,20 +34,20 @@ Resources seria então: Uma entidade ou um objeto.
 
 - Code on demand (optional): Dá a possibilidade da nossa aplicação pegar códigos, como o javascript, por exemplo, e executar no cliente.
 
-RESTFUL
+## RESTFUL
 RESTful, é a aplicação dos padrões REST.
 
-BOAS PRÁTICAS
+# BOAS PRÁTICAS
 - Utilizar verbos HTTP para nossas requisições.
 - Utilizar plural ou singular na criação dos endpoints? NÃO IMPORTA! use um padrão!!
 - Não deixar barra no final do endpoint
 - Nunca deixe o cliente sem resposta!
-#VERBOS HTTP
+# VERBOS HTTP
 - GET: Receber dados de um Resource.
 - POST: Enviar dados ou informações para serem processados por um Resource.
 - PUT: Atualizar dados de um Resource.
 - DELETE: Deletar um Resource
-#STATUS DAS RESPOSTAS
+# STATUS DAS RESPOSTAS
 - 1xx: Informação
 - 2xx: Sucesso
   - 200: OK
